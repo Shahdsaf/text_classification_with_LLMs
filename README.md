@@ -15,12 +15,6 @@ studies showed bert to perform well on code analysis tasks
 I tried to use multiple libraries/models like ... to filter out non-english languages but given the scope of this task, I chose to keep the other examples (assuming they are valid) while using an LLM that was train multi-lingual data to 1. increase training data and 2. not lose english examples due to bad filtering
 
 
-vs. llama finetuning 
-
-vs. english bert
-
-try without adding question/answer prefix
-
 There are different encoder-only models. I will start to experiment with the commonly used one BERT and then if I have time, compare it to other models.
 
 ### Experiments
@@ -28,6 +22,13 @@ There are different encoder-only models. I will start to experiment with the com
 tune hparams
 add answer or not?
 different models maybe?
+ llama and other bert family?
 augmentation?
-
-add metrics per label
+try without adding question/answer prefix
+cased?
+lower bsize or lr? 
+freeze core?
+xentropy class balance?
+evaluate llama without finetuning 
+tune lora of llama
+how llama does causal stuff to classify text?
