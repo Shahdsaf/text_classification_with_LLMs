@@ -30,5 +30,7 @@ lower bsize or lr?
 freeze core?
 xentropy class balance?
 evaluate llama without finetuning 
-tune lora of llama
+tune lora of llama: grad accum, lora drop, lora less complex
+zero shot classification with llama
 how llama does causal stuff to classify text?
+full finetuning on high gpu
